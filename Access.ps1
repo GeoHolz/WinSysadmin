@@ -44,7 +44,6 @@ ForEach ($Folder in $Folders)
                             Inherited = $ACL.IsInherited
                         }
                         $Result | Select Path,Group,User,FileSystemRights,AccessControlType,Inherited
-                        Write-Verbose "Plop"
                     }
                 }
                 Else
