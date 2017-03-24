@@ -6,7 +6,7 @@ Param (
     [switch]$Recurse
 )
 
-$ListExclusion = "TNS\g_administrateurs", "TNS\dg_rw_PartageInterservice"
+$ListExclusion = "local.local\domain admins", "local.local\other_group_to_exclude"
 
 Write-Verbose "$(Get-Date): Script begins!"
 Write-Verbose "Getting domain name..."
