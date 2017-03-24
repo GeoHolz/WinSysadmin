@@ -12,3 +12,4 @@ Utilisation :
 La variable $ListExclusion à la ligne 9 vous permet d'exclure certains groupes du résultat ( ex: domain admins )
 
 Script original : https://community.spiceworks.com/topic/367228-list-users-with-access-to-specific-folder?page=1
+Ma version : ajout des groupes à exclure
