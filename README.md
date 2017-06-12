@@ -46,4 +46,4 @@ A partir de la ligne 45
 Exemple :
 ```powershell
 PasswordChangeNotification.ps1 -smtpServer mail.domain.com -expireInDays 21 -from "IT Support <support@domain.com>" -Logging -LogPath "c:\logFiles" -testing -testRecipient support@domain.com 
-``
+```
