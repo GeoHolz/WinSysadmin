@@ -42,8 +42,8 @@ param(
 ) 
 ################################################################################################################### 
 #Geo
-$smtpfromSysadmin = "si@tns.fr"
-$smtptoSysadmin = "si@tns.fr"
+$smtpfromSysadmin = ""
+$smtptoSysadmin = ""
 $messageSubjectSysadmin = "Mot de passe arrivant à expiration"
 $start = [datetime]::Now 
 $midnight = $start.Date.AddDays(1) 
@@ -166,9 +166,9 @@ foreach ($user in $notifyUsers)
     <p> Votre mot de passe expirera $messageDays , passé ce délai votre compte sera bloqué.<br>
     Pour changer votre mot de passe, une fois connecté à votre ordinateur faites CTRL ALT Suppr et Modifier le mot de passe<br> 
     <p> Si vous utilisez un MAC vous pouvez changer votre mot de passe via le webmail. <br> 
-    Connectez vous au <a href=""https://webmail.tns.fr"">webmail</a> puis cliquez sur Options et Changer le mot de passe. 
+    Connectez vous au <a href=""https://webmail.blabla.fr"">webmail</a> puis cliquez sur Options et Changer le mot de passe. 
     <p> N'oubliez pas de mettre à jour votre mot de passe sur votre smartphone! 
-    <p>Pour rappel, vous trouverez sur <a href=""http://intranet/index.php/fr/systemes-dinformation/item/701-securite-un-bon-mot-de-passe"">l'intranet</a> une aide pour définir un mot de passe sécurisé.
+    <p>Pour rappel, vous trouverez sur <a href=""http://intranet/"">l'intranet</a> une aide pour définir un mot de passe sécurisé.
     <p>Merci, <br>  
     </P> 
     Le service informatique 
