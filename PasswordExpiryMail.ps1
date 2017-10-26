@@ -1,13 +1,18 @@
 <# 
 .Synopsis 
    Script to Automated Email Reminders when Users Passwords due to Expire. 
+
 .DESCRIPTION 
    Script to Automated Email Reminders when Users Passwords due to Expire. 
+   Geo Holz https://blog.jolos.fr
+   The script now sends a summary email of all accounts that will expire to the smtptoSysadmin address. (In addition to the mail to each user)
+   
+   ORIGINAL SCRIPT :
    Robert Pearman (Cloud & Data Center MVP) 
    WindowsServerEssentials.com 
-   Version 2.3 March 2017 
    Requires: Windows PowerShell Module for Active Directory 
    For assistance and ideas, visit the TechNet Gallery Q&A Page. http://gallery.technet.microsoft.com/Password-Expiry-Email-177c3e27/view/Discussions#content 
+
 .EXAMPLE 
   PasswordChangeNotification.ps1 -smtpServer mail.domain.com -expireInDays 21 -from "IT Support <support@domain.com>" -Logging -LogPath "c:\logFiles" -testing -testRecipient support@domain.com 
 .EXAMPLE 
