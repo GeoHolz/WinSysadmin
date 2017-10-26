@@ -1,3 +1,14 @@
+<# 
+.Synopsis 
+   This script is used to give the list of users with write access to the given path.
+.DESCRIPTION 
+   This script is used to give the list of users with write access to the given path.
+   -Recurse : The Recurse option allows you to browse also the subdirectories
+   The variable $ListExclusion allows to give groups to be excluded from the result (Example: Admins Domain)
+   Geo Holz https://blog.jolos.fr
+.EXAMPLE 
+  Access.ps1 - Path "PATH_TO_DIRECTORY" -Recurse
+#> 
 [CmdletBinding()]
 Param (
     [ValidateScript({Test-Path $_ -PathType Container})]
