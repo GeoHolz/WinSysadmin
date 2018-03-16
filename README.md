@@ -8,7 +8,7 @@ This script allows you to have the list of users with their expired passwords an
 .EXAMPLE 
   PasswordChangeNotification.ps1 -smtpServer mail.domain.com -Days 21 -smtpfrom "IT Support <support@domain.com>" -smtpto support@domain.com -Email
 
-## Access.ps1
+## ListUserRightsFolder.ps1
 
 Access.ps1 vous permet d'auditer vos répertoires afin d'obtenir la liste compléte des utilisateurs et leurs droits sur les répertoires.
 
