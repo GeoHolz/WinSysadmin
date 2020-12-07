@@ -1,4 +1,4 @@
-﻿Nom,SE invité,Adresse IP,Nom DNS,Remarques
+﻿Nom,OS,IP,DNS,Remarques
 BASE ELCIA,Microsoft Windows 7 (64-bit),129.1.59.201,BASE_ELCIA.agepar.local,
 CENTREON,CentOS 7 (64-bit),,,
 GANDALF,Microsoft Windows 7 (64-bit),129.1.59.150,GANDALF.agepar.local,
